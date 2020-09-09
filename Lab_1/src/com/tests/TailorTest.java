@@ -15,6 +15,7 @@ public class TailorTest {
         assertEquals(Math.exp(x), Main.tailorSeries(x, -6), 5E-4);
         x = 1.1;
         assertEquals(Math.exp(x), Main.tailorSeries(x, -6), 5E-4);
+        
     }
 
 }
